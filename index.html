@@ -1,0 +1,226 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Kanit:100,100italic,200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Poppins:100,100italic,200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css">
+    <title>Tabla CSS</title>
+</head>
+<body>
+<!--Titulo-->
+<h1 class="title">Tabla CSS</h1>
+<section>
+<!--Menu-->
+    <nav>
+        <ul class="menu">
+            <li><a href="#que-es-CSS">Que es CSS</a></li>
+            <li><a href="#que-es-js">Que es Java Script</a></li>
+            <li><a href="#atributos-CSS">Atributos CSS</a></li>
+        </ul>
+    </nav>
+
+</section>
+ 
+<section>
+<!-- Que es CSS-->
+    <div class="section-header">
+        <h3 id="que-es-CSS">Que es CSS</h3>
+        <a href="https://developer.mozilla.org/es/docs/Web/CSS" target="_blank">
+            <img src="imagenes/png-transparent-cascading-style-sheets-logo-css3-html-web-development-world-wide-web-blue-angle-web-design.png"/>
+        </a>
+    </div>
+    <p>CSS (Cascading Style Sheets) es un lenguaje de diseño utilizado para controlar la presentación y el estilo de las páginas web. Se encarga de definir cómo se ven los elementos HTML en términos de colores, fuentes, márgenes, espaciado, diseño y animaciones.</p>
+    <h3>Por que es importante CSS</h3>
+    <p>HTML estructura el contenido, mientras que CSS lo estiliza, lo que permite un desarrollo más limpio y organizado.</p>
+    
+    <p>CSS permite crear interfaces atractivas y responsivas, mejorando la navegabilidad y accesibilidad del sitio.</p>
+
+    <p>Facilita la creación de sitios web que se ajustan a diferentes tamaños de pantalla, esenciales para dispositivos móviles, tabletas y computadoras.</p>
+
+    <p>Los cambios en el diseño pueden aplicarse de forma global modificando solo un archivo CSS en lugar de cambiar múltiples páginas HTML.</p>
+
+    <p>CSS permite agregar efectos como transiciones, sombras y animaciones sin necesidad de JavaScript o imágenes pesadas.</p>
+
+    <p>Mejora el rendimiento de la web al reducir la necesidad de archivos multimedia grandes y evitando código HTML redundante.</p>
+
+</section>
+
+<!--Agregar section de JS-->
+<section id="que-es-js">
+    <div class="section-header">
+        <h3>Que es JS</h3>
+        <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank">  <img src="imagenes/javascript-logo-javascript-icon-transparent-free-png.webp"/>
+        </a>
+    </div>
+    <p>JavaScript es un lenguaje de programación esencial en el desarrollo web. Se utiliza principalmente para hacer que las páginas web sean interactivas y dinámicas, permitiendo funciones como animaciones, actualizaciones en tiempo real y validaciones de formularios.</p>
+    
+    <p>Es un lenguaje de alto nivel, interpretado y orientado a objetos que se ejecuta en los navegadores sin necesidad de compilación. Además, es fundamental en tecnologías modernas como Node.js, que permite su uso en servidores, y en frameworks como React, Angular y Vue.js para la creación de aplicaciones web avanzadas.</p>
+    
+    <p>Gracias a su versatilidad, JavaScript es uno de los lenguajes más utilizados en el mundo de la programación.</p>
+    
+    <h3>Por que es importante JS?</h3>
+    
+    <p>Interactividad: JS permite que los usuarios interactúen con la página web a través de eventos como clics, desplazamientos y formularios dinámicos.</p>
+    
+    <p>Dinamismo: Facilita la actualización de contenido sin necesidad de recargar la página, gracias a tecnologías como AJAX y Fetch API.</p>
+    
+    <p>Validación de formularios: Puede validar los datos ingresados por los usuarios antes de enviarlos al servidor, reduciendo errores y mejorando la experiencia.</p>
+
+    <p>Manipulación del DOM: Permite modificar la estructura y el estilo de la página en tiempo real, agregando, eliminando o modificando elementos HTML.</p>
+    
+    <p>Compatibilidad con APIs: JS se integra con APIs de terceros, como mapas interactivos, pagos en línea o servicios en la nube.</p>
+    
+    <p>Desarrollo Full Stack: Con entornos como Node.js, JS no solo se usa en el frontend sino también en el backend, permitiendo construir aplicaciones web completas.</p>
+
+</section>
+<section id="atributos-CSS">
+<!--    Tabla de atributos de CSS-->
+    <h3>Atributos de CSS</h3>
+    <table border="3">
+        <tr>
+            <th>Nombre</th>
+            <th>Descripcion</th>
+            <th>Valores posibles</th>
+            <th>Ejemplo de uso</th>
+            <th>Imagen</th>
+            <th>Bibliografia</th>
+        </tr>
+<!--Atributo uno-->
+        <tr>
+            <td>font-size</td>
+            <td>La propiedad font-size de CSS establece el tamaño de la fuente. Cambiar el tamaño de la fuente también actualiza los tamaños de las unidades &lt;length&gt; relativas al tamaño de la fuente, como em, ex y así sucesivamente.</td>
+            <td>px, rem, em</td>
+            <td>font-size: courguette, sans-serif;</td>
+            <td class="imagen-de-muestra-"><img src="imagenes/font-sizes.webp"/></td>
+            <td><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/font-size" target="_blank">Click aqui</a></td>
+        </tr>
+<!--Atributo dos-->
+        <tr>
+            <td>border-radius</td>
+            <td>La propiedad border-radius CSS redondea las esquinas del borde exterior de un elemento. Puedes establecer un único radio para crear esquinas circulares o dos radios para crear esquinas elípticas.</td>
+            <td>px</td>
+            <td>bourder-radius: 50px 30px;</td>
+            <td class="imagen-de-muestra"><img src="imagenes/border-radius.JPG.png"/></td>
+            <td><a href="https://developer.mozilla.org/es/docs/Web/CSS/border-radius" target="_blank">Click aqui</a></td>
+        </tr>
+<!--Atributo tres-->
+        <tr>
+            <td>Display</td>
+            <td>La propiedad CSS display especifica si un elemento es tratado como block or inline element y el diseño usado por sus hijos, como flow layout(Diseño de Flujo), grid(Cuadricula) o flex(Flexible).</td>
+            <td>center, justify</td>
+            <td>display: flex;</td>
+            <td class="imagen-de-muestra"><img src="imagenes/images.png"/></td>
+            <td><a href="https://developer.mozilla.org/es/docs/Web/CSS/display" target="_blank">Click aqui</a></td>
+        </tr>
+<!--        Atributo cuatro-->
+        <tr>
+            <td>Flexbox</td>
+            <td>Flexbox es un método de diseño de página unidimensional para compaginar elementos en filas o columnas. Los elementos de contenido se ensanchan para rellenar el espacio adicional y se encogen para caber en espacios más pequeños. En este artículo expondremos todas sus características básicas.</td>
+            <td>display: flex</td>
+            <td>display: flex;</td>
+            <td class="imagen-de-muestra"><img src="imagenes/images-2.png"/></td>
+            <td><a href="https://developer.mozilla.org/es/docs/Learn_web_development/Core/CSS_layout/Flexbox" target="_blank">Click aqui</a></td>
+        </tr>
+<!--        Atributo cinco-->
+        <tr>
+            <td>Position</td>
+            <td>La propiedad position de CSS especifica cómo un elemento es posicionado en el documento. Las propiedades top, right, bottom, y left determinan la ubicación final de los elementos posicionados.</td>
+            <td>center, top, left, right</td>
+            <td>position: relative;</td>
+            <td class="imagen-de-muestra"><img src="imagenes/CSS-position.webp"/></td>
+            <td><a href="https://developer.mozilla.org/es/docs/Web/CSS/position" target="_blank">Click aqui</a></td>
+        </tr>
+<!--        Atributo seis-->
+        <tr>
+            <td>box-shadow</td>
+            <td>La propiedad CSS box-shadow añade efectos de sombra alrededor del marco de un elemento. Se pueden definir múltiples efectos separados por comas. La caja de la sombra se describe por los desplazamientos en X e Y, los radios de desenfoque y dispersión, y el color relativos al elemento.</td>
+            <td>px, rem, em</td>
+            <td>box-shadow: 60px -16px teal;</td>
+            <td class="imagen-de-muestra"><img src="imagenes/Elegant-Box-Shadows-In-Pure-CSS-Shadow.css.png.webp"/></td>
+            <td><a href="https://developer.mozilla.org/es/docs/Web/CSS/box-shadow" target="_blank">Click aqui</a></td>
+        </tr>
+<!--        Atributo siete-->
+        <tr>
+            <td>Overflow</td>
+            <td>La propiedad CSS overflow especifica: si recortar contenido, dibujar barras de desplazamiento o mostrar el contenido excedente en un elemento a nivel de bloque.</td>
+            <td>visible, hiden</td>
+            <td>&lt;overflow-block&gt; =
+                visible  |
+                hidden   |
+                clip     |
+                scroll   |
+                auto    </td>
+            <td class="imagen-de-muestra"><img src="imagenes/overflow-explained.png"/></td>
+            <td><a href="https://developer.mozilla.org/es/docs/Web/CSS/overflow" target="_blank">Click aqui</a></td>
+        </tr>
+<!--        Atributo ocho-->
+        <tr>
+            <td>z-index</td>
+            <td>La propiedad CSS z-index indica el orden de un elemento posicionado y sus descendientes. Cuando varios elementos se superponen, los elementos con mayor valor z-index cubren aquellos con menor valor.</td>
+            <td>auto, 1, 2, 3</td>
+            <td>z-index:  auto | &lt;entero&gt; | inherit</td>
+            <td class="imagen-de-muestra"><img src="imagenes/images-3.png"/></td>
+            <td><a href="https://developer.mozilla.org/es/docs/Web/CSS/z-index" target="_blank">Click aqui</a></td>
+        </tr>
+<!--        Atributo nueve-->
+        <tr>
+            <td>opacity</td>
+            <td>La propiedad CSS opacity define la transparencia de un elemento, esto es, en qué grado se superpone el fondo al elemento.</td>
+            <td>%</td>
+            <td>opacity:  -valor alfanumérico- </td>
+            <td class="imagen-de-muestra"><img src="imagenes/images-4.png" /></td>
+            <td><a href="https://developer.mozilla.org/es/docs/Web/CSS/opacity" target="_blank">Click aqui</a></td>
+        </tr>
+<!--        Atributo diez-->
+        <tr>
+            <td>padding</td>
+            <td>La propiedad abreviada de CSS padding establece el área de relleno en los cuatro lados de un elemento a la vez.</td>
+            <td>px, em, rem, %</td>
+            <td>padding: 10% 0;</td>
+            <td class="imagen-de-muestra"><img src="imagenes/images-2.jpeg"/></td>
+            <td><a href="https://developer.mozilla.org/es/docs/Web/CSS/padding" target="_blank">Click aqui</a></td>
+        </tr>
+<!--        Atributo once-->
+        <tr>
+            <td>margin</td>
+            <td>La propiedad CSS margin establece el margen para los cuatro lados. Es una abreviación para evitar tener que establecer cada lado por separado con las otras propiedades de margen: margin-top, margin-right, margin-bottom y margin-left.</td>
+            <td>em, rme ,px</td>
+            <td>margin-right: 0</td>
+            <td class="imagen-de-muestra"><img src="imagenes/images-5.png" height="183" width="275"/></td>
+            <td><a href="https://developer.mozilla.org/es/docs/Web/CSS/margin" target="_blank">Click aqui</a></td>
+        </tr>
+<!--        Atributo doce-->
+        <tr>
+            <td>background-color</td>
+            <td>Background-color es un propiedad de CSS que define el color de fondo de un elemento, puede ser el valor de un color o la palabra clave transparent.</td>
+            <td>#111111</td>
+            <td>background-color: color | transparent | inherit</td>
+            <td class="imagen-de-muestra"><img src="imagenes/backgroundcolorhtml1200x700webp1577801469.webp"/></td>
+            <td><a href="https://developer.mozilla.org/es/docs/Web/CSS/background-color">Click aqui</a></td>
+        </tr>
+<!--        Atributo trece-->
+        <tr>
+            <td>text-align</td>
+            <td>La propiedad text-align de CSS establece la alineación horizontal del contenido a nivel de línea dentro de un elemento de bloque o caja de celda-tabla. Esto significa que funciona como vertical-align pero en dirección horizontal.</td>
+            <td>center, right, top</td>
+            <td>text-align: start;</td>
+            <td class="imagen-de-muestra"><img src="imagenes/Image-upload-on-2013-03-11-at-13-09-35.png"/></td>
+            <td><a href="https://developer.mozilla.org/es/docs/Web/CSS/text-align">Click aqui</a></td>
+        </tr>
+<!--        Atributo catorce-->
+        <tr>
+            <td>width</td>
+            <td>La propiedad CSS width establece el ancho de un elemento. Por defecto, establece el ancho del área de contenido, pero si el box-sizing se establece en border-box, establece el ancho del área del borde.</td>
+            <td>px, rem, em</td>
+            <td>width: 150px;</td>
+            <td class="imagen-de-muestra"><img src="imagenes/width.png" height="415" width="714"/></td>
+            <td><a href="https://developer.mozilla.org/es/docs/Web/CSS/width">Click aqui</a></td>
+        </tr>
+    </table>
+</section>
+</body>
+</html>

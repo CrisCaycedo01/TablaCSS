@@ -1,0 +1,121 @@
+/* Responsive en general */
+@media (max-width: 1024px) {
+    .container {
+        width: 90%;
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 768px) {
+    .container {
+        width: 100%;
+        padding: 10px;
+    }
+}
+
+@media (max-width: 480px) and (orientation: landscape) {
+    .container {
+        flex-direction: row;
+        justify-content: space-around;
+    }
+}
+
+body {
+    font-family: poppins, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #88b5ff ;
+    background: linear-gradient(300deg, #4A90E2, #B3E5FC);
+}
+
+h1, h3 {
+    text-align: center;
+}
+
+.menu {
+    font-family: kanit, sans-serif;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    background-color: #32FFF2;
+}
+
+.menu li {
+    margin: 0;
+    padding: 0;
+}
+
+.menu a {
+
+    display: block;
+    padding: 15px 20px;
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    transition: background 0.3s, transform 0.2s;
+}
+
+.menu a:hover {
+    color: #f6fffa;
+    background-color: #B3E5FC;
+    transform: scale(1.1);
+}
+/* Responsive del menú */
+@media (max-width: 768px) {
+    .menu {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .menu a {
+        width: 100%;
+        text-align: center;
+    }
+}
+
+/* Ubicacion de los logos */
+.section-header {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+/* Tamaño de lo logos */
+.section-header img {
+    width: 60px;
+    height: auto;
+}
+
+/* Ajuste del tamaño de las imagenes */
+table img {
+    width: 100px;
+    height: auto;
+    object-fit: cover;
+}
+
+/* Estilos para la tabla */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    background-color: white;
+}
+
+/* Bordes para la tabla y celdas */
+table, th, td {
+    border: 2px solid #4A90E2;
+}
+
+/* Espaciado y alineación del contenido */
+th, td {
+    padding: 10px;
+    text-align: center;
+}
+
+/* Color de fondo al pasar el cursor */
+tr:hover {
+    background-color: #88b5ff; /* Azul más intenso */
+    transition: 0.3s;
+}
